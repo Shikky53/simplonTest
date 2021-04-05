@@ -1,0 +1,23 @@
+
+import random
+
+SalleTheatre = random.randint(0, 5)
+
+if SalleTheatre == 0 :
+    print("""[][][][][][][][][][][][]
+[][][][][][][][][][][][]
+[][][][][][][][][][][][]""")
+elif SalleTheatre == 1 :
+        print("""[Roger][][][][][][][][][][][]
+[][][][][][][][][][][][]
+[][][][][][][][][][][][]""")
+elif SalleTheatre == 2 :
+        print("""[Martin][Lucy][][][][][][][][][][]
+[][][][][][][][][][][][]
+[][][][][][][][][][][][]""")
+elif SalleTheatre == 3 :
+        print("""[Luther][Megane][Jeremy][][][][][][][][][]
+[][][][][][][][][][][][]
+[][][][][][][][][][][][]""")
+else :
+        print("Aucune place n'est disponible")
